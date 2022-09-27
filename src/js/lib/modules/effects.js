@@ -27,7 +27,7 @@ $.prototype.animateOverTime = function(dur, cb, fin) {
 
 $.prototype.fadeIn = function(dur, display, fin) {
     for ( let i = 0; i < this.length; i++) {
-        this[i].style.display = display || 'block';
+        this[i].style.display = display;
 
         const _fadeIn = (complection) => {
             this[i].style.opacity = complection;

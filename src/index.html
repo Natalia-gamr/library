@@ -8,16 +8,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>1</div>
-    <div class="active">2</div>
-    <div class="findme">
-        <div class="some">sss</div>
-        <div class="more">mm</div>
-        <div class="some">ssss</div>
-        <div class="some">sssss</div>
-        <div class="more">mmm</div>
+    <div class="container">
+        <div>1</div>
+        <div class="active">2</div>
+        <div class="findme d-flex f-space-between">
+            <div class="some italic bold">sss</div>
+            <div class="more">mm</div>
+            <div class="some m10">ssss</div>
+            <div class="some text-color-success">sssss</div>
+            <div class="more">mmm</div>
+        </div>
+        
+        <button class="btn btn-primary">click me</button>
+        <button class="btn btn-success">click me</button>
+        <button class="btn btn-danger">click me</button>
+        <button class="btn btn-warning">click me</button>
+        <button class="btn btn-dark">click me</button>
+        <hr>
+        <hr>
+        <button class="btn btn-outline-primary">click me</button>
+        <button class="btn btn-outline-success">click me</button>
+        <button class="btn btn-outline-danger">click me</button>
+        <button class="btn btn-outline-warning">click me</button>
+        <button class="btn btn-outline-dark">click me</button>
     </div>
-    <button>click me</button>
     
     <script src='script.js'></script>
 </body>
