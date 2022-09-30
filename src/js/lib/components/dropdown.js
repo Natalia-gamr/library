@@ -11,17 +11,17 @@ $.prototype.dropdown = function() {
 
 $('.dropdown-toggle').dropdown()
 
-$('.wrap').html(`
-    <div class="dropdown">
-        <button class="btn btn-primary dropdown-toggle" id="dropdownMenuBtn">Dropdown menu</button>
-        <div class="dropdown-menu" data-toggle-id="dropdownMenuBtn">
-            <a href="" class="dropdown-item">action</a>
-            <a href="" class="dropdown-item">action 2</a>
-            <a href="" class="dropdown-item">action 3</a>
-        </div>
-    </div>
-`);
+// $('.wrap').html(`
+//     <div class="dropdown">
+//         <button class="btn btn-primary dropdown-toggle" id="dropdownMenuBtn">Dropdown menu</button>
+//         <div class="dropdown-menu" data-toggle-id="dropdownMenuBtn">
+//             <a href="" class="dropdown-item">action</a>
+//             <a href="" class="dropdown-item">action 2</a>
+//             <a href="" class="dropdown-item">action 3</a>
+//         </div>
+//     </div>
+// `);
 
-$('.dropdown-toggle').dropdown()
+// $('.dropdown-toggle').dropdown()
 
 
